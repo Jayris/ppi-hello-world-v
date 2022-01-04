@@ -11,7 +11,7 @@
     <?php 
     require_once "model/Conexao.php";
     $tecnologia = Conexao::select("tecnologia","id, nome");
-    print_r($tecnologias);
+    print_r($tecnologia);
     ?>
 </body>
 </html>
